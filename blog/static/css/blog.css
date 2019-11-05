@@ -1,0 +1,46 @@
+h1 a {
+    color: #2E95EF;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    border: 3px solid #2E95EF;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+h1 a:hover {
+    color: #E1EDF0;
+    background-color: #2E95EF;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    border: 3px solid #2E95EF;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+h2 a {
+    color: #075090;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+    padding-left: 500px;
+    padding-top: 50px;
+    background-image: url("https://www.maxpixel.net/static/photo/2x/Blog-Background-Blueberry-Beverage-Blogger-Aerial-3249923.jpg")
+}
+
+p {
+    color: #093155;
+    font-family: 'Roboto', sans-serif;
+}
+
+.published {
+    margin-top: 60px;
+    margin-bottom: 1px;
+}
+
+.posts {
+    max-height: 300px;
+    overflow: scroll;
+}

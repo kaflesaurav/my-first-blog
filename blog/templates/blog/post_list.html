@@ -1,6 +1,13 @@
+{% load static %}
 <html>
     <head>
         <title>Django Girls blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
     </head>
     <body>
         <div>
@@ -8,8 +15,8 @@
         </div>
             
     {% for post in posts %} 
-        <div>
-            <p>published: {{post.published_date}}</p>
+        <div class="posts">
+            <p class="published">published: {{post.published_date}}</p>
             <h2><a href="">{{post.title}}</a></h2>
             <p>{{post.text|linebreaksbr}}</p>
         </div>
