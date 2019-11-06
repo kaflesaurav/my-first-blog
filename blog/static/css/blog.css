@@ -41,6 +41,8 @@ p {
 }
 
 .posts {
-    max-height: 300px;
+    max-height: 350px;
+    max-width: 320px;
     overflow: scroll;
+    margin: 50px 1px;
 }
